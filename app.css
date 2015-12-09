@@ -31,19 +31,18 @@ container {
   margin: 200px 100px 100px 85px;
   font-size: 50px;
   color: #4a0064;
+  position: absolute;
 }
+
 
 #trackButton {
   width: 172px;
   height: 36px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: black;
-}
-
-#trackButton p {
   color: #afafa7;
-  margin: 15px 10px 5px 10px;
   font-size: 18px;
+  margin: 260px 160px 150px 90px;
   position: relative;
 }
 

@@ -1,8 +1,7 @@
-
 header {
   background-color: #9b9b8c;
   height: 40px;
-  width: 900px;
+  width: 800px;
   border-bottom: 2px black solid;
 }
 
@@ -11,8 +10,8 @@ header {
 }*/
 
 body {
-  width: 900px;
-  background-color: #eeeeee;
+  width: 800px;
+  background-color: #ffffff;
 }
 
 container {
@@ -22,7 +21,7 @@ container {
 
 .sectionLeft {
   height: 500px;
-  width: 450px;
+  width: 400px;
   float: left;
   font-family: Avenir;
 }
@@ -44,11 +43,12 @@ container {
   font-size: 18px;
   margin: 260px 160px 150px 90px;
   position: relative;
+  font-family: Avenir;
 }
 
 .sectionRight {
   height: 500px;
-  width: 450px;
+  width: 400px;
   display: inline-block;
   float: right;
   position: relative;
@@ -57,7 +57,7 @@ container {
 
 .track {
   height: 500px;
-  width: 450px;
+  width: 400px;
   opacity: .19;
   display: inline-block;
   position: absolute;
@@ -69,7 +69,7 @@ container {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin: 20px 130px 0px 155px;
+  margin: 20px 130px 0px 130px;
 }
 
 footer {
@@ -77,7 +77,7 @@ footer {
   font-family: Avenir;
   color: #afafa7;
   height:40px;
-  width: 900px;
+  width: 800px;
   bottom: 0;
   display: flex;
   flex-direction: row;
@@ -85,4 +85,82 @@ footer {
 
 footer p {
   margin: 10px 10px 10px 80px;
+}
+
+.playlistHeader {
+  background-color: #9b9b8c;
+  height: 100px;
+  width: 800px;
+}
+
+.playlistHeader p {
+  font-family: Avenir;
+  color: #efefee;
+  font-size: 22px;
+  padding: 50px 0px 0px 20px;
+}
+
+.albumCovers {
+  padding: 0px 0px 5px 30px;
+}
+
+.coverPict {
+  display: inline-block;
+  padding: 5px 10px 10px 10px;
+  width: 58px;
+  height: 58px
+}
+
+.barAnimate {
+  width: 800px;
+  height: 8px;
+  background-color: #dddddd;
+  display: inline-block;
+}
+
+#greyBar {
+  width: 100px;
+  height: 8px;
+  background-color: #777777;
+  border-radius: 3px;
+  margin-left: 8px;
+  position: relative;
+}
+
+#songBox {
+  width: 716px;
+  height: 158px;
+  background-color: #eeeeee;
+  border: 2px black solid;
+  margin: 20px 20px 10px 40px;
+  position: absolute;
+  font-family: Avenir;
+}
+
+#songBox p {
+  margin: 10px;
+}
+
+#clearTracks {
+  width: 172px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: black;
+  color: #afafa7;
+  font-size: 18px;
+  margin: 200px 10px 150px 40px;
+  font-family: Avenir;
+  position: relative;
+}
+
+#submitBin {
+  width: 172px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: black;
+  color: #afafa7;
+  font-size: 18px;
+  margin: 200px 160px 150px 0px;
+  font-family: Avenir;
+  display: inline-block;
 }

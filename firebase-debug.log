@@ -15,3 +15,87 @@
 [info] i  deploying hosting
 [info] i  preparing public directory for upload...
 [debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/firebase/playlistTaylorSmith/uploads/-K57p-FBBfHa-HSSyHn9?token=XXX&fileCount=24&message= 
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.0.0/bin/node /usr/local/bin/firebase deploy
+[debug] Platform:     darwin
+[debug] Node Version: v5.0.0
+[debug] Time:         Wed Dec 09 2015 16:34:54 GMT-0700 (MST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=XXX 
+[debug] Error: connect ECONNREFUSED 104.197.85.31:443
+    at Object.exports._errnoException (util.js:860:11)
+    at exports._exceptionWithHostPort (util.js:883:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+[error] 
+[error] Error: Server Error. Please try again in a few minutes.
+[debug] Error Context: {
+  "requestOptions": {
+    "method": "GET",
+    "json": true,
+    "url": "https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=-K4ZQsFAsHApIq2mE-P-%7Cf7a55ffef3de13013cc29fe6945e03f2"
+  }
+}
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.0.0/bin/node /usr/local/bin/firebase deploy
+[debug] Platform:     darwin
+[debug] Node Version: v5.0.0
+[debug] Time:         Wed Dec 09 2015 16:35:06 GMT-0700 (MST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=XXX 
+[debug] Error: connect ECONNREFUSED 104.197.85.31:443
+    at Object.exports._errnoException (util.js:860:11)
+    at exports._exceptionWithHostPort (util.js:883:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+[error] 
+[error] Error: Server Error. Please try again in a few minutes.
+[debug] Error Context: {
+  "requestOptions": {
+    "method": "GET",
+    "json": true,
+    "url": "https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=-K4ZQsFAsHApIq2mE-P-%7Cf7a55ffef3de13013cc29fe6945e03f2"
+  }
+}
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.0.0/bin/node /usr/local/bin/firebase deploy
+[debug] Platform:     darwin
+[debug] Node Version: v5.0.0
+[debug] Time:         Wed Dec 09 2015 16:35:23 GMT-0700 (MST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=XXX 
+[debug] Error: connect ECONNREFUSED 104.197.85.31:443
+    at Object.exports._errnoException (util.js:860:11)
+    at exports._exceptionWithHostPort (util.js:883:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+[error] 
+[error] Error: Server Error. Please try again in a few minutes.
+[debug] Error Context: {
+  "requestOptions": {
+    "method": "GET",
+    "json": true,
+    "url": "https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=-K4ZQsFAsHApIq2mE-P-%7Cf7a55ffef3de13013cc29fe6945e03f2"
+  }
+}
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.0.0/bin/node /usr/local/bin/firebase deploy
+[debug] Platform:     darwin
+[debug] Node Version: v5.0.0
+[debug] Time:         Wed Dec 09 2015 16:38:21 GMT-0700 (MST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=XXX 
+[debug] Error: connect ECONNREFUSED 104.197.85.31:443
+    at Object.exports._errnoException (util.js:860:11)
+    at exports._exceptionWithHostPort (util.js:883:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+[error] 
+[error] Error: Server Error. Please try again in a few minutes.
+[debug] Error Context: {
+  "requestOptions": {
+    "method": "GET",
+    "json": true,
+    "url": "https://admin.firebase.com/firebase/playlistTaylorSmith/token?token=-K4ZQsFAsHApIq2mE-P-%7Cf7a55ffef3de13013cc29fe6945e03f2"
+  }
+}

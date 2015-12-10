@@ -72,6 +72,15 @@ container {
   margin: 20px 130px 0px 130px;
 }
 
+.coverPhotos {
+  height: 140px;
+  width: 140px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
 footer {
   background-color: #686859;
   font-family: Avenir;

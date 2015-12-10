@@ -63,7 +63,7 @@ container {
   position: absolute;
 }
 
-.placeHold {
+#placeHold {
   height: 140px;
   width: 140px;
   position: relative;

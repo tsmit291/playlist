@@ -13,18 +13,21 @@ $(document).ready(function(){
       // document.getElementById("placeHold").innerHTML= imgList[i];
       $('#placeHold').append('<img class="coverPhotos" src="images/'+imgList[i]+'"/>');
       console.log(imgList);
+    };
+    var playlistResults = response['results'];
+    for (var i = 0; i < playlistResults.length; i++) {
+    var albumPicts = playlistResults[i]['cover_art'];
+      $('.albumCovers').append('<img class="coverPict" src="images/'+albumPicts+'"/>');
+      console.log(albumPicts);
     }
+
+  });
 })
-});
-
-
-
-
-
-
-
-//array holding what I get from my for loop
-//each time I iterate through my loop (up to three times), i grab a random number and a random result for cover art.
-// push the results (cover art) into the imgList array.
-// append that array into my placehold id.
+//
+// var ajaxiPost = $.ajax({
+//   url: "https://lit-fortress-6467.herokuapp.com/post",
+//   method: "POST"
+//   data: {goo: "bar"}
+// })
+// });
 //
